@@ -1,0 +1,8 @@
+{
+  "name": "SocialFlow",
+  "description": "Un'applicazione per aiutare le persone timide a esercitarsi nelle interazioni sociali con coach virtuali potenziati dall'IA.",
+  "requestFramePermissions": [
+    "microphone",
+    "camera"
+  ]
+}
