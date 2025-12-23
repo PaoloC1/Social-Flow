@@ -9,6 +9,9 @@ export default defineConfig(({ mode }) => {
         port: 3000,
         host: '0.0.0.0',
       },
+      // Use a relative base so assets load correctly both locally and on GitHub Pages
+      // (e.g. https://<user>.github.io/Social-Flow/).
+      base: './',
       plugins: [react()],
       define: {
         'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY),
